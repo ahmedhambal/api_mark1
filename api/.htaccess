@@ -1,0 +1,5 @@
+# directory browsing
+Options All -Indexes
+
+RewriteEngine On
+RewriteRule (^|/)db(/|$) - [F]
